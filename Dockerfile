@@ -8,4 +8,4 @@ COPY ./ ./
 RUN npm install
 
 # Set up a default command
-CMD [ "npm","start" ]
+CMD [ "npm","start", "test" ]
